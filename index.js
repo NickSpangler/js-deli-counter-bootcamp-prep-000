@@ -27,6 +27,7 @@ function currentLine(list) {
       index++
       }
     }
-    var newStr = str.substring(0, str.length - 1)
-    return newStr
+    var secondStr = str
+    var thirdStr = secondStr.substring(0, str.length - 1)
+    return thirdStr
   }
