@@ -28,4 +28,8 @@ function currentLine(list) {
       }
     }
     return str
+    while (index === list.length - 1) {
+      str += `${place}. ${list[index]}`
+    }
+    return str
   }
