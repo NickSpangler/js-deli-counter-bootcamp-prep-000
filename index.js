@@ -28,6 +28,6 @@ function currentLine(list) {
       }
       return str
     }
-    var newStr = secondStr.substring(0, str.length - 1)
+    var newStr = str.substring(0, str.length - 1)
     return newStr
   }
