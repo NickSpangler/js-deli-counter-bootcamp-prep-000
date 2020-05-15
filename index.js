@@ -22,8 +22,6 @@ function currentLine(list) {
     let place = 1
     let index = 0
     while (index < list.length) {
-       if (index === list.length - 1) {
-        str =+ `${place}. ${list[index]}`
        } else {
       str += `${place}. ${list[index]}, `
       place++
