@@ -28,5 +28,5 @@ function currentLine(list) {
       }
     }
     var newStr = str.substring(0, str.length - 1)
-    return str
+    return newStr
   }
