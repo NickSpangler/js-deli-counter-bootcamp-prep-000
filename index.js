@@ -27,5 +27,5 @@ function currentLine(list) {
       index++
       }
     }
-    return newStr
+    return str
   }
