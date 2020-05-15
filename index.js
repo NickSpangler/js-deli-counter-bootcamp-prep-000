@@ -21,13 +21,11 @@ function currentLine(list) {
     var str = "The line is currently: "
     let place = 1
     let index = 0
-    while (index < list.length) {
+    while (index < list.length - 1) {
       str += `${place}. ${list[index]}, `
       place++
       index++
       }
-      return str
     }
-    var newStr = str.substring(0, str.length - 1)
-    return newStr
+    return str
   }
