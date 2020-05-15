@@ -22,7 +22,6 @@ function currentLine(list) {
     let place = 1
     let index = 0
     while (index < list.length) {
-       } else {
       str += `${place}. ${list[index]}, `
       place++
       index++
@@ -30,4 +29,3 @@ function currentLine(list) {
     }
     return str
   }
-}
