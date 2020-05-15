@@ -29,7 +29,8 @@ function currentLine(list) {
     }
     return str
     while (index === list.length - 1) {
-      str += `${place}. ${list[index]}`
+      var newStr = str
+      newStr += `${place}. ${list[index]}`
     }
-    return str
+    return newStr
   }
