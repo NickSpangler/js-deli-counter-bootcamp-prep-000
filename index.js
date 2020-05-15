@@ -19,7 +19,6 @@ function currentLine(list) {
     return "The line is currently empty."
   } else {
     var str = "The line is currently: "
-    var newStr = str.substring(0, str.length - 1);
     let place = 1
     let index = 0
     while (index < list.length) {
