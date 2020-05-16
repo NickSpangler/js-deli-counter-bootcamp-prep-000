@@ -26,6 +26,7 @@ function currentLine(list) {
       place++
       index++
       }
+      str = str.slice(0, -1)
     }
     return str
   }
